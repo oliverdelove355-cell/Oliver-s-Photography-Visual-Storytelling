@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — Oliver</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets.icons/my logo.png" alt="Logo">
+        <span>Oliver — Photography & Storytelling</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="container mobile-menu">
+      <a href="index.html">Home</a>
+      <a class="active" href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main class="container gallery">
+    <h1>Gallery</h1>
+    <p class="lead">Visual stories—each frame carries a caption, a breath, a truth.</p>
+
+    <div class="grid">
+      <!-- Repeat cards; update src and label text -->
+      <div class="card">
+        <img src="assets.images/good-faces-xmSWVeGEnJw-unsplash.jpg" alt="Portrait">
+        <div class="overlay"></div>
+        <div class="label">Woven shield — portrait of quiet power</div>
+      </div>
+      <div class="card">
+        <img src="assets.images/597757421fcf796605ee07d31f0958fd.jpg" alt="Editorial">
+        <div class="overlay"></div>
+        <div class="label">Metallic editorial — resilience in contour</div>
+      </div>
+      <div class="card">
+        <img src="assets.images/ryoji-iwata-X53e51WfjlE-unsplash.jpg" alt="Street">
+        <div class="overlay"></div>
+        <div class="label">City exhale — cinematic street still</div>
+      </div>
+      <div class="card">
+        <img src="assets.images/cc9a704f75cc0dc2524937a9e73f0a15.jpg" alt="Retro-futuristic">
+        <div class="overlay"></div>
+        <div class="label">Retro‑futuristic gaze — time folded</div>
+      </div>
+      <div class="card">
+        <img src="assets.images/keagan-henman-pPxJTtxfV1A-unsplash.jpg" alt="Studio">
+        <div class="overlay"></div>
+        <div class="label">Studio minimal — light as language</div>
+      </div>
+      <div class="card">
+        <img src="assets.images/748de4c38ebf0cb8d8661780635fdaf1.jpg" alt="Documentary">
+        <div class="overlay"></div>
+        <div class="label">Documentary moment — truth unposed</div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close">Close</button>
+      <img src="" alt="Expanded view">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> De-love Oliver's — Authentic Visual Narratives. All rights reserved.
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Oliver</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets.icons/a cinematic photogra.png" alt="Logo">
+        <span>Oliver — Photography & Storytelling</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="container mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a class="active" href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main class="container about">
+    <h1>About Oliver</h1>
+    <p class="lead">
+      I’m a photographer and visual storyteller based in Accra. My work blends authentic portraiture,
+      cinematic realism, and genre‑bending aesthetics—anime hints, sculptural ornaments, and symbolic overlays
+      that speak to resilience and empowerment.
+    </p>
+
+    <h2>Mission</h2>
+    <p>
+      To honor truth in every frame—centering lived experience, layered narratives, and the quiet power of presence.
+      I collaborate closely, shaping visuals that feel honest, intentional, and alive.
+    </p>
+
+    <h2>Approach</h2>
+    <ul>
+      <li><strong>Authenticity:</strong> Portraits that respect identity and nuance.</li>
+      <li><strong>Cinematic craft:</strong> Light, composition, and pacing that carry emotion.</li>
+      <li><strong>Symbolic design:</strong> Woven textures, shields, and motifs that reinforce resilience.</li>
+      <li><strong>Iterative process:</strong> Collaborative exploration—refining mood, meaning, and detail.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> De-love Oliver's — Authentic Visual Narratives. All rights reserved.
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
